@@ -2,8 +2,8 @@
   "name": "ci-cd-pipeline-with-github-actions",
   "version": "1.0.0",
   "description": "Implement a fully automated CI/CD pipeline using GitHub Actions to automate testing and deployment for a Node.js application. Ensures that every code change is automatically tested and, optionally, deployed, reducing human intervention and improving the efficiency and reliability of the development process.",
-  "main": "app.js",  // Updated based on your code structure
-  "scripts": {
+  "main": "app.js",  
+    "scripts": {
     "test": "NODE_ENV=test jest",
     "start": "node app.js"
   },
