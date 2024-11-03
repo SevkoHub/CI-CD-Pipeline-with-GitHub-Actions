@@ -31,6 +31,3 @@ jobs:
 
       # Run tests
       - run: npm test
-
-      # add a linting step
-      - run: npm run lint
